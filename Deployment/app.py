@@ -24,8 +24,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from PIL import Image
 
-url = "https://github.com/FooFangKhai/Diabetes-Analysis/blob/main/diabetes.csv"
-df = pd.read_csv(url)
+df = pd.read_csv("/Users/_fangkhai/Downloads/Projects/Data Visualization/Diabetes-Analysis/diabetes.csv")
 
 def page_home():
     st.title("Data Visualization 📊")
